@@ -38,9 +38,11 @@ Please support this project by purchasing a license, as it allows me to continue
 
 #### Statamic Pro
 
-**Gitamic does not require Statamic Pro**, nor [Statamic's Git Automation](https://statamic.dev/git-integration) to be enabled.
+Gitamic does not require Statamic Pro, nor [Statamic's Git Automation](https://statamic.dev/git-integration) to be enabled, in order to work. It can independently work with your repository at no extra expense.
 
-But you can use Gitamic _with_ Statamic Pro's Git Automation. See&#x20;
+**This means you can even use Gitamic on your Statamic Free sites!**
+
+But you _can_ also use Gitamic with Statamic Pro's Git Automation. See [#3.-optional-play-nicely-with-statamic-pro](setup.md#3.-optional-play-nicely-with-statamic-pro "mention") for more details.
 
 ### Installation
 
