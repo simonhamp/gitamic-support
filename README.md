@@ -2,7 +2,7 @@
 description: >-
   Gitamic is a premium Statamic add-on that allows you to take full control of
   your git workflow from within your CMS.
-cover: .gitbook/assets/Gitamic (Statamic Marketplace).png
+cover: .gitbook/assets/Gitamic (Gitbook).png
 coverY: 389
 ---
 
