@@ -1,5 +1,5 @@
 ---
-description: What to do if you become aware of a vulnerability exposed by Gitamic
+description: What to do if you become aware of a vulnerability exposed by Gitamic.
 ---
 
 # 🔐 Security Policy

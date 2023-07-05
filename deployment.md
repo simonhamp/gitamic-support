@@ -1,10 +1,68 @@
+---
+description: Some notes on various deployment scenarios whilst using Gitamic.
+---
+
 # 🛳 Deployment
 
 ### Authentication
 
 When building your application in its production environment or running it through a CI[^1] pipeline, you will likely need to install its dependencies, and this may include Gitamic.
 
-When that happens, Composer will need to authenticate
+When that happens, Composer will need to authenticate against the private repository in order to install Gitamic.
+
+You probably don't want to be doing this manually in a terminal every time – and [thanks to Composer, you don't have to](https://getcomposer.org/doc/articles/authentication-for-private-packages.md)!
+
+How you authenticate will depend on how you deploy:
+
+{% tabs %}
+{% tab title="Laravel Forge" %}
+Laravel Forge has [built-in support](https://forge.laravel.com/docs/1.0/sites/packages.html) for private package repository authentication.
+
+* Repository URL: **`gitamic.composer.sh`**
+* Username: Your Anystack email address
+* Password: [Your license key](installation.md#anystack) (which depends on how you purchased it)
+{% endtab %}
+
+{% tab title="Netlify" %}
+Create a `COMPOSER_AUTH` Environment Variable with the JSON structure that Composer expects, e.g.
+
+```json
+{"http-basic":{"HOSTNAME":{"username":"USERNAME","password":"PASSWORD"}}}
+```
+
+Replace the placeholders with the following values:
+
+* `HOSTNAME`: **`gitamic.composer.sh`**
+* `USERNAME`: Your Anystack email address
+* `PASSWORD`: [Your license key](installation.md#anystack) (which depends on how you purchased it)
+
+For compatibility, remove all spaces and line breaks.
+{% endtab %}
+
+{% tab title="Custom / Other" %}
+Any of the following methods should work. **You only need to pick one.**
+
+#### `auth.json`
+
+You can create an `auth.json` file [in your project](https://getcomposer.org/doc/articles/authentication-for-private-packages.md#authentication-in-auth-json-per-project) or in [a global `auth.json`](https://getcomposer.org/doc/articles/authentication-for-private-packages.md#global-authentication-credentials) that stores these credentials.
+
+{% hint style="danger" %}
+**Do not commit your `auth.json` file to git**
+{% endhint %}
+
+#### `COMPOSER_AUTH`
+
+Create a `COMPOSER_AUTH` environment variable similarly to the approach used for [#netlify](deployment.md#netlify "mention").
+
+You can set this environment variable in your shell config file or you can create it on-the-fly as part of your `composer` CLI commands:
+
+```bash
+COMPOSER_AUTH={JSON} composer install ...
+```
+
+See the [#netlify](deployment.md#netlify "mention") example for what to replace the `{JSON}` placeholder with
+{% endtab %}
+{% endtabs %}
 
 ### Auto-deployment
 

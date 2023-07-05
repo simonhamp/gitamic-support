@@ -1,5 +1,5 @@
 ---
-description: The legal wording of the Gitamic license
+description: The legal wording of the Gitamic license.
 ---
 
 # 🧑⚖ License

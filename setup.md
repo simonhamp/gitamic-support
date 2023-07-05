@@ -55,7 +55,7 @@ return [
 ];
 ```
 
-### 3. \[Optional] Statamic Pro
+### 3. \[Optional] Play nicely with Statamic Pro
 
 If you have [Statamic Pro](https://statamic.com/pricing) (you should, it's great!) and you have [Statamic's Git Automation](https://statamic.dev/git-automation) enabled, you may find it better to _disable_ Statamic's '[automatic commits](https://statamic.dev/git-automation#committing-changes)' feature so that Statamic doesn't automatically commit every change.
 
