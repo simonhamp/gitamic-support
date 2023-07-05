@@ -6,14 +6,21 @@ description: What to do if you become aware of a vulnerability exposed by Gitami
 
 ### Reporting a Vulnerability
 
-**❗️ PLEASE SEND REPORTS TO** [**gitamic@simonhamp.me**](mailto:gitamic@simonhamp.me) **WITH THE SUBJECT LINE `Gitamic Security`**
+{% hint style="success" %}
+**SEND REPORTS TO:** [**gitamic@simonhamp.me**](mailto:gitamic@simonhamp.me)\
+With the subject line: **Gitamic Security**
+{% endhint %}
 
-**🛑 DO NOT REPORT SECURITY VULNERABILITIES AS ISSUES ON GITHUB**
+{% hint style="danger" %}
+**DO NOT REPORT SECURITY VULNERABILITIES PUBLICLY**
 
-Please **do not** share your discovery on Twitter, Discord or in any other public forum, as this may result in it being exploited.
+Please **do not** report them as issues on GitHub or share your discovery on Twitter, Discord or in any other public forum, as this may result in them being exploited.
+{% endhint %}
 
 Each report **MUST** include:
 
+* Gitamic version (e.g. `2.0.0`)\
+  `composer show simonhamp/gitamic | grep "versions :"`
 * PHP version (e.g. `8.2.7`)\
   `php -v`
 * Statamic version (e.g. `4.9.2`)\
@@ -23,7 +30,7 @@ Each report **MUST** include:
 * Git version (e.g. `2.34.1`)\
   `git --version`
 
-Besides this, please provide as much detail as possible to allow me to assess and reproduce the vulnerability.
+Besides these key details, please provide as much context as possible to allow me to assess and reproduce the vulnerability.
 
 All reports will be acknowledged within 48 hours of receipt.
 
@@ -31,7 +38,7 @@ Your report will either be `ACCEPTED` or `DECLINED`, and you will be notified of
 
 If your report is accepted, I will work on a fix and you will be notified via email once the fix has been released.
 
-**Note that I will not respond to feature requests or bug reports at the above email address.** Please [report an issue](https://github.com/simonhamp/gitamic-support/issues) instead.
+**Note that I will not follow up feature requests or bug reports at the above email address.** Please [report an issue](https://github.com/simonhamp/gitamic-support/issues) instead.
 
 ### Rewards
 
