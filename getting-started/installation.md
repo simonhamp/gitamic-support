@@ -4,7 +4,7 @@ description: Gitamic is installed via Composer.
 
 # 💾 Installation
 
-Before you install Gitamic, make sure your system and application meets the [#requirements](./#requirements "mention").
+Before you install Gitamic, make sure your system and application meets the [#requirements](../#requirements "mention").
 
 ### Composer
 
@@ -57,7 +57,7 @@ Your Statamic Marketplace license for Gitamic has been migrated to [Anystack](ht
 
 You should have received an email encouraging you to [sign up for an Anystack Customer account](https://auth.anystack.sh/register?accountType=customer).
 
-Your license key is associated with the email address you originally used to purchase Gitamic from the Statamic Marketplace. To retrieve it, please register with Anystack using the same email address
+Your license key is associated with the email address you originally used to purchase Gitamic from the Statamic Marketplace. To retrieve it, please register with Anystack using the same email address.
 
 * **`Username`**: Your Anystack account email address
 * **`Password`**: Your license key is available in your [Anystack dashboard](https://account.anystack.sh/licenses)

@@ -4,9 +4,23 @@ description: >-
   your git workflow from within your CMS.
 cover: .gitbook/assets/Gitamic (Gitbook).png
 coverY: 389
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# 👋 Introduction
+# 👋 Hi, Gitamic!
 
 Gitamic adds a **simple**, **beautiful** and **intuitive** git UI to your [Statamic](https://statamic.com/) CP so that you can have more control over your commits.
 
@@ -42,14 +56,40 @@ Gitamic does not require Statamic Pro, nor [Statamic's Git Automation](https://s
 
 **This means you can even use Gitamic on your Statamic Free sites!**
 
-But you _can_ also use Gitamic with Statamic Pro's Git Automation. See [#3.-optional-play-nicely-with-statamic-pro](setup.md#3.-optional-play-nicely-with-statamic-pro "mention") for more details.
+But you _can_ also use Gitamic with Statamic Pro's Git Automation. See [#3.-optional-play-nicely-with-statamic-pro](getting-started/setup.md#3.-optional-play-nicely-with-statamic-pro "mention") for more details.
+
+### Pricing & Bundles
+
+Gitamic comes in a few licensing flavours:
+
+#### **🌱 Gitamic Pro - Single-site, annual license**
+
+One year of updates and support. Renews annually at a discounted rate.\
+\
+**Also available in a 5-site bundle 🪴 Buy four, get one free!**\
+\
+And don't worry, you don't need to keep paying to keep using... if you choose to stop renewing at any point, you will only miss out on the latest updates and support.
+
+#### **🌳 Gitamic Lifetime**
+
+A single payment (no renewals), access to every version of Gitamic. Plus direct access to the Gitamic repo, so you'll get to beta test pre-release versions and have a lifetime of _priority_ support.
+
+#### **🌲 Gitamic Lifetime Unlimited license**
+
+Great if you're planning to build lots of sites with Gitamic or just _really_ want to support its continued development.
+
+As well as being able to use it on as many sites as you want, having lifetime direct access to the repo _and_ priority support, **you'll get a permanent spot in an Acknowledgements file that will be included with every installation**.
+
+{% hint style="info" %}
+For the latest prices and offers, keep your eye on the `Pricing` tab on [Gitamic's Anystack Marketplace listing](https://marketplace.anystack.sh/item/gitamic).
+{% endhint %}
 
 ### Installation
 
 1. To install and use Gitamic, you first need a license key. Purchase one on [Anystack](https://marketplace.anystack.sh/item/gitamic)
 2. Activate your license key in your Anystack dashboard
-3. [Install Gitamic](installation.md)
-4. [Setup your application](setup.md)
+3. [Install Gitamic](getting-started/installation.md)
+4. [Setup your application](getting-started/setup.md)
 
 ### Bugs and Feature Requests <a href="#bugs-features" id="bugs-features"></a>
 
@@ -59,10 +99,10 @@ You can also find me ([@simonhamp](https://twitter.com/simonhamp)) in the `#3rd-
 
 ### Security
 
-If you discover any security related issues, please see the [security-policy.md](security-policy.md "mention") for what to do.
+If you discover any security related issues, please see the [security-policy.md](legal-security-support/security-policy.md "mention") for what to do.
 
 ### License
 
 Gitamic is a premium add-on and you must [purchase a license key](https://marketplace.anystack.sh/item/gitamic) in order to use it.
 
-Read the full [license.md](license.md "mention")
+Read the full [license-agreement.md](legal-security-support/license-agreement.md "mention")
