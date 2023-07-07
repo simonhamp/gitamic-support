@@ -60,6 +60,10 @@ But you _can_ also use Gitamic with Statamic Pro's Git Automation. See [#3.-opti
 
 ### Pricing & Bundles
 
+{% hint style="success" %}
+You can pay for Gitamic in **$USD**, **£GBP** or **€EUR**
+{% endhint %}
+
 Gitamic comes in a few licensing flavours:
 
 #### **🌱 Gitamic Pro - Single-site, annual license**
