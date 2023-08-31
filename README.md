@@ -31,12 +31,12 @@ It's great for solo sites where you want more granular control of your git histo
 Gitamic supports many of the features you'd expect from a git GUI:
 
 * View the 'working tree'
-* Stage and unstage changes (in bulk)
+* Stage and unstage changes (even in bulk)
 * Discard unstaged changes
 * Commit staged changes
 * Push to & pull from the remote branch
 * See the commit history
-* File diffs
+* View diffs
 
 **Gitamic is under active development.** More features are on the way. If you've got any specific requests, please see how to raise [#bugs-features](./#bugs-features "mention")
 
@@ -46,7 +46,7 @@ Please support this project by purchasing a license, as it allows me to continue
 
 | Gitamic  | v1    | v2    |
 | -------- | ----- | ----- |
-| PHP      | 7.4+  | 8.0+  |
+| PHP      | 7.4+  | 8.1+  |
 | Statamic | 3+    | 4+    |
 | Git      | 2.30+ | 2.30+ |
 
@@ -61,7 +61,7 @@ But you _can_ also use Gitamic with Statamic Pro's Git Automation. See [#3.-opti
 ### Pricing & Bundles
 
 {% hint style="success" %}
-You can pay for Gitamic in **$USD**, **£GBP** or **€EUR**
+You can pay for Gitamic in **$ USD**, **£ GBP** or **€ EUR**
 {% endhint %}
 
 Gitamic comes in a few licensing flavours:

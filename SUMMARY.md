@@ -1,7 +1,8 @@
 # Table of contents
 
 * [👋 Hi, Gitamic!](README.md)
-* [💳 Purchase a License](https://marketplace.anystack.sh/item/gitamic)
+* [🚀 Release notes](https://changelog.anystack.sh/gitamic)
+* [💳 Purchase a license](https://marketplace.anystack.sh/item/gitamic)
 
 ## Getting Started
 
@@ -17,10 +18,10 @@
 
 ## Legal, Security, Support
 
-* [🧑⚖ License Agreement](legal-security-support/license-agreement.md)
-* [🔐 Security Policy](legal-security-support/security-policy.md)
+* [🧑⚖ License agreement](legal-security-support/license-agreement.md)
+* [🔐 Security policy](legal-security-support/security-policy.md)
 * [🐞 Report an issue](https://github.com/simonhamp/gitamic-support/issues)
 
 ***
 
-* [🙊 About Me](https://simonhamp.me)
+* [🙊 About me](https://simonhamp.me)
