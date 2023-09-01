@@ -97,7 +97,9 @@ For the latest prices and offers, keep your eye on the `Pricing` tab on [Gitamic
 
 ### Bugs and Feature Requests <a href="#bugs-features" id="bugs-features"></a>
 
-If you experience any problems with Gitamic or would like to make a feature request, please [raise an issue](https://github.com/simonhamp/gitamic-support/issues) using the appropriate template.
+If you experience any problems with Gitamic, please [raise an issue](https://github.com/simonhamp/gitamic-support/issues) using the appropriate template.
+
+For feature requests, please [start a Discussion](https://github.com/simonhamp/gitamic-support/discussions/new?category=ideas) in the Ideas category.
 
 You can also find me ([@simonhamp](https://twitter.com/simonhamp)) in the `#3rd-party` channel on the [Statamic Discord](https://statamic.com/discord). (Note that I will likely still ask you to fill out a GitHub issue).
 
