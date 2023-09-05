@@ -12,7 +12,7 @@ A lot of this page is inspired by and adapted from [this fantastic post](https:/
 >
 > — [cbeams, 2014](https://cbea.ms/git-commit/)
 
-These are some useful guidelines.
+These are just some useful guidelines, not rules.
 
 ### Separate subject from body with a blank line
 
@@ -44,6 +44,8 @@ Write like you're commanding someone to do something, not past tense expressing 
 
 ### Use the body to explain _what_ and _why_ vs. how
 
-This is possibly the most important recommendation. When committing many changes, you should focus on giving context on what has changed and why it was needed, and less on how.
+This is possibly the most important recommendation!
 
-For most content changes this probably won't be a major concern, but if your changes cover code, then the _how_ can be found by the person reading the changes in the commit history; what they can't see from the code is _why_.
+When committing many changes, you should focus on giving context on what has changed and why it was needed, and less on how.
+
+For most content changes this probably won't be a major concern, but if your changes cover code, then the _how_ can usually be found by reading the changes in the code; what may be less obvious from the code is _what_ changed and _why_.
