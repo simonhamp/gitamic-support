@@ -17,6 +17,7 @@
 * [☑ Reviewing changes](using-gitamic/reviewing-changes.md)
 * [⏺ Creating commits](using-gitamic/creating-commits/README.md)
   * [Writing commit messages](using-gitamic/creating-commits/writing-commit-messages.md)
+  * [Atomic commits](using-gitamic/creating-commits/atomic-commits.md)
 * [🔃 Pushing & pulling](using-gitamic/pushing-and-pulling.md)
 
 ## Legal, Security, Support
