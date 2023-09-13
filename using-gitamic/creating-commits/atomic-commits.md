@@ -8,11 +8,23 @@ description: It's a good practice to make them atomic
 
 Atomic commits are self-contained and "complete" in the sense that the changes they record work together as a single unit.
 
-If you ever need to reverse (known as a 'revert' in Git lingo) some work, you will find it much easier if all the changes are clumped together in a single revision.
+If you ever need to reverse (known as a 'revert' in Git lingo) some work, you will find it much easier if many changes that are related to each other (or even depend on each other) are clumped together in a single revision.
 
 {% hint style="info" %}
 This is one of the most important reasons for creating manual commits rather than leaving it to an automated process: **you cannot achieve true atomic commits when many changes are automatically rolled up into commits.**
 {% endhint %}
+
+Practicing atomic commits also has the side-effect of encouraging smaller sets of changes that can more easily be rolled up together, which helps to bring focus to your work, allowing you to move more quickly.
+
+If you think in terms of jobs to be done, you can think of a commit as the completion of a job: the contents of the commit (the changeset) should represent everything needed to complete that task.
+
+This also leads to your jobs/tasks reaching a useful level of granularity. For example, instead of a task called "Improve homepage CTA" which might incorporate a bundle of small jobs in your project management tool of choice, you end up with discrete tasks for things like "Change 'Join now' to 'Sign up today!' on homepage" because you know this is a clear and concise piece of work.
+
+That, in turn, makes deciding what your commit message should be that much easier – you (or someone else) already wrote it!
+
+And it's far easier to find a commit message that has the name of the task as the heading than it is to search based on any other criteria. Your project management tool may even be able to make the connection between your tasks and your commits automatically for you.
+
+**A virtuous circle!**
 
 ### The case for manual commits - an example
 
