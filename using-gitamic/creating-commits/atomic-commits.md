@@ -48,7 +48,7 @@ Unfortunately you have neither in this world of automatic commits: your homepage
 
 It might still be less than Jen would have to do and it's not like your work is lost - it is recorded in Git after all - but it's grunt work nonetheless and you've got more interesting work you could be doing.
 
-Your few short content update task has now turned into an urgent but more time-consuming Git management nightmare.
+Your short and sweet content update task has now turned into an urgent and time-consuming Git management nightmare.
 
 **This is where manual, atomic commits can save you!**
 
@@ -56,6 +56,6 @@ Granted, this might not happen very often and it's a trade-off - some time spent
 
 But as soon as more people start making edits to this site, these kinds of headaches become far more frequent... and far messier.
 
-Manual commits, however, allow you and Jen to individually decide which parts of the work you've done can safely be grouped together into atomic revisions in the repo's history.
+Getting everyone into the good practice of creating manual, atomic commits, however, allows you all to individually decide which parts of the work that you've done can be grouped together into appropriate revisions in the repo's history.
 
-Then, should you ever need to revert a whole chunk of work, it is just a single commit away.
+Then, should you ever need to revert a whole chunk of work, it is just a single, clean commit away.
