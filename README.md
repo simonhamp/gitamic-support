@@ -22,6 +22,10 @@ layout:
 
 # 👋 Hi, Gitamic!
 
+{% hint style="success" %}
+<mark style="color:green;">**GET 30% OFF ALL PLANS DURING BLACK FRIDAY WEEK!**</mark>
+{% endhint %}
+
 Gitamic adds a **simple**, **beautiful** and **intuitive** git UI to your [Statamic](https://statamic.com/) CP so that you can have more control over your commits.
 
 It's great for solo sites where you want more granular control of your git history, but really shines on more complex sites that rely on live-publishing whilst pushing changes from your Statamic CP back to your git repository.
