@@ -23,7 +23,7 @@ layout:
 # 👋 Hi, Gitamic!
 
 {% hint style="success" %}
-<mark style="color:green;">**GET 30% OFF ALL PLANS DURING BLACK FRIDAY WEEK!**</mark>
+<mark style="color:green;">**SPECIAL 2024 PRICE: 30% OFF ALL PLANS—ALL YEAR!**</mark>
 {% endhint %}
 
 Gitamic adds a **simple**, **beautiful** and **intuitive** git UI to your [Statamic](https://statamic.com/) CP so that you can have more control over your commits.
